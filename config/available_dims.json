@@ -1,0 +1,248 @@
+{
+  "box_A": [
+    100,
+    10,
+    10,
+    "cuboid"
+  ],
+  "box_B": [
+    75,
+    10,
+    10,
+    "cuboid"
+  ],
+  "box_C": [
+    50,
+    10,
+    10,
+    "cuboid"
+  ],
+  "box_D": [
+    95,
+    95,
+    10,
+    "cuboid"
+  ],
+  "box_E": [
+    70,
+    70,
+    10,
+    "cuboid"
+  ],
+  "box_F": [
+    40,
+    40,
+    10,
+    "cuboid"
+  ],
+  "box_G": [
+    95,
+    95,
+    95,
+    "cuboid"
+  ],
+  "box_H": [
+    75,
+    70,
+    75,
+    "cuboid"
+  ],
+  "box_I": [
+    45,
+    45,
+    45,
+    "cuboid"
+  ],
+  "box_J": [
+    100,
+    70,
+    10,
+    "cuboid"
+  ],
+  "box_K": [
+    100,
+    45,
+    10,
+    "cuboid"
+  ],
+  "box_L": [
+    75,
+    45,
+    10,
+    "cuboid"
+  ],
+  "box_M": [
+    100,
+    70,
+    75,
+    "cuboid"
+  ],
+  "box_N": [
+    150,
+    70,
+    100,
+    "cuboid"
+  ],
+  "box_O": [
+    150,
+    95,
+    40,
+    "cuboid"
+  ],
+  "box_P": [
+    100,
+    70,
+    40,
+    "cuboid"
+  ],
+  "box_Q": [
+    150,
+    70,
+    40,
+    "cuboid"
+  ],
+  "box_R": [
+    150,
+    45,
+    40,
+    "cuboid"
+  ],
+  "box_S": [
+    150,
+    45,
+    10,
+    "cuboid"
+  ],
+  "box_T": [
+    35,
+    10,
+    10,
+    "cuboid"
+  ],
+  "box_U": [
+    35,
+    35,
+    10,
+    "cuboid"
+  ],
+  "box_V": [
+    25,
+    25,
+    10,
+    "cuboid"
+  ],
+  "cyl_A": [
+    50,
+    50,
+    10,
+    "cylinder"
+  ],
+  "cyl_B": [
+    25,
+    25,
+    10,
+    "cylinder"
+  ],
+  "cyl_C": [
+    15,
+    15,
+    10,
+    "cylinder"
+  ],
+  "cyl_D": [
+    50,
+    50,
+    40,
+    "cylinder"
+  ],
+  "cyl_E": [
+    25,
+    25,
+    15,
+    "cylinder"
+  ],
+  "cyl_F": [
+    20,
+    20,
+    100,
+    "cylinder"
+  ],
+  "cyl_G": [
+    10,
+    10,
+    100,
+    "cylinder"
+  ],
+  "cyl_H": [
+    10,
+    10,
+    50,
+    "cylinder"
+  ],
+  "cyl_I": [
+    20,
+    20,
+    50,
+    "cylinder"
+  ],
+  "cyl_J": [
+    20,
+    20,
+    75,
+    "cylinder"
+  ],
+  "cyl_K": [
+    10,
+    10,
+    75,
+    "cylinder"
+  ],
+  "cyl_M": [
+    20,
+    20,
+    150,
+    "cylinder"
+  ],
+  "cyl_N": [
+    30,
+    30,
+    200,
+    "cylinder"
+  ],
+  "cyl_O": [
+    30,
+    30,
+    250,
+    "cylinder"
+  ],
+  "cyl_P": [
+    20,
+    20,
+    175,
+    "cylinder"
+  ],
+  "cyl_Q": [
+    30,
+    30,
+    125,
+    "cylinder"
+  ],
+  "cyl_R": [
+    30,
+    30,
+    225,
+    "cylinder"
+  ],
+  "cyl_S": [
+    15,
+    15,
+    25,
+    "cylinder"
+  ],
+  "cyl_T": [
+    15,
+    15,
+    50,
+    "cylinder"
+  ]
+}

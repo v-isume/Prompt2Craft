@@ -1,0 +1,11 @@
+{
+  "obj_type": "chair_0911_v5",
+  "model": "o4-mini",
+  "reasoning_effort": "high",
+  "prompt_jsonl": "./json/o4-mini_batch_{obj_type}.jsonl",
+  "answer_jsonl": "./json/o4-mini_batch_{obj_type}_answer.jsonl",
+  "collision_json": "./out_jsonl/failures_{obj_type}.json",
+  "float_json": "./out_jsonl/float_{obj_type}.json",
+  "description_json": "./out_jsonl/description_{obj_type}.json",
+  "output_jsonl": "./json/{model}_batch_{obj_type}_collision.jsonl"
+}

@@ -1,0 +1,6 @@
+{
+  "obj_name": "0003",
+  "img_name": "robot_test.jpg",
+  "answer_json": "./json_final/{obj_name}_answer.json",
+  "output_dir": "./robot_{obj_name}_mesh"
+}

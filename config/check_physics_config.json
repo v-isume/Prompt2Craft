@@ -1,0 +1,12 @@
+{
+  "obj_type": "truck",
+  "in_dir": "01_initial",
+  "out_dir": "01_physics",
+  "results_root": "./output",
+  "utils_root": "./utils",
+  "headless": false,
+  "start_index": 0,
+  "max_files": 100,
+  "density": 320,
+  "use_sdf": false
+}

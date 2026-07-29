@@ -1,0 +1,11 @@
+{
+  "obj_type": "truck",
+  "model": "o4-mini",
+  "reasoning_effort": "high",
+  "prompt_jsonl": "./prompts/o4-mini_batch_{obj_type}_2026.jsonl",
+  "error_jsonl": "./output/01_initial/error/{obj_type}/error.jsonl",
+  "collision_json": "./output/01_initial/error/{obj_type}/failures.json",
+  "float_json": "./output/01_initial/error/{obj_type}/float.json",
+  "physics_jsonl": "./output/01_physics/error/{obj_type}/physics.jsonl",
+  "output_jsonl": "./prompts/{model}_batch_{obj_type}_reprompt_first.jsonl"
+}

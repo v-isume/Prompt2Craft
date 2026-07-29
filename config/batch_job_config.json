@@ -1,0 +1,10 @@
+{
+  "obj_type": "truck",
+  "model": "o4-mini",
+  "round": "initial",
+  "input_jsonl": "./prompts/{model}_batch_{obj_type}_2026.jsonl",
+  "output_dir": null,
+  "endpoint": "/v1/chat/completions",
+  "completion_window": "24h",
+  "poll_seconds": 60
+}

@@ -1,0 +1,8 @@
+{
+  "obj_type": "robot",
+  "model": "o4-mini",
+  "reasoning_effort": "high",
+  "img_folder": "../CraftGPT/dataset/ImageNet-single/{obj_type}",
+  "template_dir": ".",
+  "output_dir": "./json_final"
+}

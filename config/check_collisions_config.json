@@ -1,0 +1,9 @@
+{
+  "obj_type": "truck",
+  "results_root": "./output",
+  "in_dir": "01_initial",
+  "records_suffix": "",
+  "collision_depth_threshold": 0.1,
+  "float_tolerance": 0.5,
+  "ignore_ids": []
+}

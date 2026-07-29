@@ -1,0 +1,42 @@
+{
+  "truck": {
+    "func_name": "rolling",
+    "minimum": "1x CAB, 1x BODY, 4x WHEELS, 2x Axles",
+    "constraint": "For the AXLES and WHEELS, the flat surfaces must be in contact to be a valid SURFACE connection. To achieve this, they must follow the same ORIENTATION and they must be centered."
+  },
+  "scooter": {
+    "func_name": "rolling",
+    "minimum": "1x DECK, 1x STEM, 1x HANDLEBAR, 4x SUPPORTS, 2x WHEELS, 2x AXLES",
+    "constraint": "For the AXLES and WHEELS, they must follow the same ORIENTATION and they must be centered. The WHEELs width must be within the space between the supports for the axles, and must not collide with the DECK."
+  },
+  "skateboard": {
+    "func_name": "rolling",
+    "minimum": "1x DECK, 2x SUPPORTS, 4x WHEELS, 2x AXLES",
+    "constraint": "For the AXLES and WHEELS, they must follow the same ORIENTATION and they must be centered. The WHEELs must not collide with the DECK."
+  },
+  "chair": {
+    "func_name": "support",
+    "minimum": "1x SEAT, 4x LEGS",
+    "constraint": "Ensure the position and orientation of the parts is correct."
+  },
+  "table": {
+    "func_name": "support",
+    "minimum": "1x TABLETOP, 4x LEGS",
+    "constraint": "Ensure the position and orientation of the parts is correct."
+  },
+  "hammer": {
+    "func_name": "hit",
+    "minimum": "1x HEAD, 1x HANDLE",
+    "constraint": "The HEAD is typically placed towards the top of the object."
+  },
+  "bookshelf": {
+    "func_name": "support",
+    "minimum": "2x SIDE_PANELS, 3x SHELVES",
+    "constraint": "Each SHELF must be connected to two side panels."
+  },
+  "robot": {
+    "func_name": "rotate",
+    "minimum": "1x Body, 2x Shoulder, 2x Arm, 2x Elbow, 2x Forearm, 2x Wrist, 2x Hand",
+    "constraint": "The joints need to allow rotation."
+  }
+}

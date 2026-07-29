@@ -1,0 +1,12 @@
+{
+  "obj_type": "truck",
+  "model": "o4-mini",
+  "reasoning_effort": "high",
+  "prompt_jsonl": "./json_final/o4-mini_batch_{obj_type}.jsonl",
+  "answer_jsonl": "./json_final/o4-mini_batch_{obj_type}_answer.jsonl",
+  "physics_jsonl": "/media/vitor/SSD-1/CraftGPT_results/initial/error/{obj_type}/physics.jsonl",
+  "retry_prompt_jsonl": "./json_final/feedback/o4-mini_batch_{obj_type}_reprompt_collision.jsonl",
+  "retry_answer_jsonl": "./json_final/feedback/o4-mini_batch_{obj_type}_reprompt_collision_answer.jsonl",
+  "retry_physics_jsonl": "/media/vitor/SSD-1/CraftGPT_results/collision/error/{obj_type}/physics.jsonl",
+  "output_jsonl": "./json_final/feedback/{model}_batch_{obj_type}_reprompt_physics.jsonl"
+}

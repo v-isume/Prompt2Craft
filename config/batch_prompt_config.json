@@ -1,0 +1,8 @@
+{
+  "obj_type": "truck",
+  "model": "o4-mini",
+  "reasoning_effort": "medium",
+  "img_folder": "./dataset/ImageNet/rebuilt/{obj_type}",
+  "template_dir": "./templates",
+  "output_jsonl": "./prompts/{model}_batch_{obj_type}_2026.jsonl"
+}

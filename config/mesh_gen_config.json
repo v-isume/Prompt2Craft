@@ -1,0 +1,10 @@
+{
+  "input_jsonl": "./prompts/o4-mini_batch_truck_2026_answer.jsonl",
+  "obj_type": "truck",
+  "target_function": "rolling",
+  "output_root": "./output/01_initial/meshes",
+  "error_root": "./output/01_initial/error",
+  "rescale_root": "./output/01_initial/meshes_rescaled",
+  "rescale_factor": 0.001,
+  "ignore_ids": []
+}

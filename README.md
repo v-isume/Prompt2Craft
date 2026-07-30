@@ -1,6 +1,12 @@
 # Prompt2Craft
 Official repository for the paper "Prompt2Craft: Generating Functional Craft Assemblies With LLMs"
 
+## Environment Setup
+The main packages are in *requirements.txt*. It was tested using Python 3.12.
+
+For the Physics Simulation Engine, in the paper we used Nvidia Isaac SIM 4.2.0, however, in this release, we updated it to Isaac SIM 6.0.1.
+Please install by following the instructions from their official repo: https://github.com/isaac-sim/IsaacSim
+
 ## Dataset Preparation
 The following synsets from ImageNet-21k (Winter 2021) dataset were used:
 
@@ -15,7 +21,7 @@ table: {n03063968}
 truck: {n03360300, n03690473, n04467665, n04490091}
 ```
 
-**Differences with paper:** Around ~36 *truck* images are different from the original dataset. As I cannot directly distribute the ImageNet images, and because I lost their original names and source (which release they were from), I replaced them for now so that the dataset can be recreated when using *./scripts/rebuild_dataset.py*.
+**Differences with paper:** Around ~36 *truck* images are different from the original dataset. As I cannot directly distribute the ImageNet images, and because I lost their original names and source (which release/year they were from), I replaced them for now so that the dataset can be recreated when using *./scripts/rebuild_dataset.py*.
 
 After downloading the synsets, place them all in the same folder. Then, you can reconstruct our filtered dataset by running the following commands:
 
@@ -61,4 +67,23 @@ python ./scripts/upload_batch.py --wait
 ```
 python scripts/batch_mesh_gen_streamlined.py --input-jsonl /path/to/answers/jsonl --output-root /path/to/save/folder --error-root /folder/to/save/error/file --rescale-root /folder/to/save/rescaled/meshes
 ```
+
+Alternatively, you can specify the parameters in *./config/mesh_gen_config.json*.
+We perform a re-scaling step here to ensure that the meshes are in meters for the Physics Simulation.
+
+Then, verify the collisions by running:
+
+```
+python scripts/check_collisions.py --in-dir /name/of/meshes/folder/
+```
+
+## Physics Simulation
+
+To run the physics simulation, run the following:
+
+```
+python scripts/check_physics.py --in-dir /name/of/meshes/folder/ --out-dir /name/of/folder/to/save/output/
+```
+
+You can add the --headless flag if you don't need to visualize the simulation.
 

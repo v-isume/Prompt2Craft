@@ -1,0 +1,8 @@
+numpy>=2.0            # verified 2.3.1
+trimesh>=4.0          # verified 4.11.1
+manifold3d>=3.0       # verified 3.5.2 -- trimesh's boolean backend, see note
+scipy>=1.11           # verified 1.17.0 -- scipy.spatial.transform.Rotation only
+pandas>=2.0           # verified 3.0.5
+openai>=1.40          # verified 2.50.0
+pydantic>=2.0         # verified 2.11.10
+pillow>=10.0          # verified 12.2.0

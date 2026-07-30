@@ -32,6 +32,9 @@ python ./scripts/rebuild_dataset.py rebuild --source "path/to/synsets/root/folde
 
 ***Note:*** The script should also work if you download fewer synsets as well, you can first try it with a single one.
 
+The additional images for the *scooter* class are in *dataset/scooter_pexels.zip*, extract those files in the same folder as the scooter images after running the script.
+All the additional images were collected from Pexels website, and resized.
+
 ## Prompt
 
 For prompting, we used batch prompting via the OpenAI API.

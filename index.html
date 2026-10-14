@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Step: Edit below title -->
+    <title>Prompt2Craft: Generating Functional Craft Assemblies With LLMs</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="research papers, academic papers, AI research, robotics research, published papers, scientific papers, academic journals"
+    />
+    <!-- <meta name="author" content="Research Paper Platform" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="robots"
+      content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+    /> -->
+
+    <!-- Open Graph Meta Tags (For Social Media Sharing) -->
+    <!-- <meta
+      property="og:title"
+      content="Research Papers - Explore Cutting-Edge Research"
+    />
+    <meta
+      property="og:description"
+      content=""
+    />
+    <meta property="og:image" content="path-to-your-image.jpg" />
+    <meta property="og:url" content="https://www.yourwebsite.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Research Paper Platform" /> -->
+
+    <!-- Twitter Meta Tags (For Twitter Sharing) -->
+    <!-- <meta
+      name="twitter:title"
+      content="Research Papers - Explore Cutting-Edge Research"
+    />
+    <meta
+      name="twitter:description"
+      content=""
+    />
+    <meta name="twitter:image" content="path-to-your-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" /> -->
+
+    <!-- Canonical Link -->
+    <!-- <link rel="canonical" href="https://www.yourwebsite.com" /> -->
+
+    <!-- Favicon for different platforms -->
+    <!-- <link
+      rel="icon"
+      href="Assets/Favicon/icons8-research-color-16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="Assets/Favicon/icons8-research-color-32.png"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="Assets/Favicon/icons8-research-color-70.png"
+      sizes="70x70"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="Assets/Favicon/icons8-research-color-72.png"
+      sizes="72x72"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="Assets/Favicon/icons8-research-color-96.png"
+      sizes="96x96"
+      type="image/png"
+    /> -->
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- JS-YAML Library for parsing data.yaml -->
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  </head>
+  <body>
+    <!-- Full-Width Sticky Navigation Header -->
+    <nav class="nav" id="nav">
+      <div class="nav-content">
+        <div id="nav-links">
+          <a href="#abstract">Abstract</a>
+          <!-- <a href="#introduction">Introduction</a> -->
+          <a href="#methodology">Methodology</a>
+          <a href="#results">Results</a>
+          <a href="#conclusion">Conclusion</a>
+        </div>
+        <button class="toggle-btn" onclick="toggleDarkMode()">
+          Toggle Dark Mode
+        </button>
+      </div>
+    </nav>
+
+    <!-- Centered Content Container (1024px) -->
+    <div class="container">
+      <!-- Dynamic YAML Container (Default Method) -->
+      <div id="yaml-app">
+        <!-- Header Placeholder / Skeleton -->
+        <div class="header" id="header">
+          <div class="skeleton skeleton-title"></div>
+          <div class="authors">
+            <div class="skeleton skeleton-text"></div>
+            <div class="skeleton skeleton-text-short"></div>
+          </div>
+        </div>
+
+        <!-- Action Buttons Placeholder / Skeleton -->
+        <div class="buttons" id="buttons">
+          <div class="skeleton skeleton-btn"></div>
+          <div class="skeleton skeleton-btn"></div>
+          <div class="skeleton skeleton-btn"></div>
+          <div class="skeleton skeleton-btn"></div>
+          <div class="skeleton skeleton-btn"></div>
+          <div class="skeleton skeleton-btn"></div>
+        </div>
+
+        <!-- Sections Placeholder / Skeleton Container -->
+        <div id="sections-container">
+          <div class="abstract">
+            <div class="skeleton skeleton-title" style="width: 30%;"></div>
+            <div class="skeleton skeleton-text"></div>
+            <div class="skeleton skeleton-text"></div>
+            <div class="skeleton skeleton-text-short"></div>
+          </div>
+          <div class="content-section">
+            <div class="skeleton skeleton-title" style="width: 35%;"></div>
+            <div class="skeleton skeleton-text"></div>
+            <div class="skeleton skeleton-text"></div>
+          </div>
+        </div>
+      </div>
+
+    <!-- 
+    ==========================================================================================
+    MANUAL HTML EDIT METHOD (STATIC FALLBACK)
+    ==========================================================================================
+    If you prefer editing HTML manually instead of using data.yaml:
+    1. Set `const USE_YAML_DATA = false;` in the <script> block near the bottom of index.html.
+    2. Uncomment the STATIC HTML EDIT METHOD START block below.
+    ==========================================================================================
+    -->
+    <!-- STATIC HTML EDIT METHOD START (Uncomment below to use manual HTML editing)
+
+    [STEP 1: HEADER PART]
+    <div class="header">
+      <h1>TODO: Paper Title</h1>
+      <div class="authors">
+        <p>
+          <a href="#">TODO: Author name 1</a><sup>1</sup>,
+          <a href="#">TODO: Author name 2</a><sup>*1,3</sup>,
+          <a href="#">TODO: Author name 3</a><sup>*2</sup>,
+          <a href="#">TODO: Author name 4</a><sup>*1</sup>,
+          <a href="#">TODO: Author name 5</a><sup>2</sup>,
+          <a href="#">TODO: Author name 6</a><sup>1</sup>
+        </p>
+        <p>
+          <sup>1</sup>TODO: University name 1 &nbsp;&nbsp; <sup>2</sup>TODO: University name 2 &nbsp;&nbsp; <sup>3</sup>TODO: University name 3
+        </p>
+        <p>
+          <sup>1</sup><a href="mailto:example1@email.com">TODO:email1@email.com</a>,
+          <sup>2</sup><a href="mailto:example2@email.com">TODO:email2@email.com</a>
+        </p>
+        <p>
+          <em>*Equal Contribution</em>
+        </p>
+        <p>📌 Conference on TODO: Conference name, 2023 (Oral Talk)</p>
+        <p>📌 Presented at TODO: Conference name 2024, Yokohama, Japan.</p>
+      </div>
+    </div>
+
+    [STEP 2: BUTTON FOR LINKS]
+    <div class="buttons">
+      <a href="#" target="_blank">Paper</a>
+      <a href="#" target="_blank">Videos</a>
+      <a href="#" target="_blank">Code</a>
+      <a href="#" target="_blank">Dataset</a>
+      <a href="#" target="_blank">Model</a>
+      <a href="#bibtex">BibTex</a>
+    </div>
+
+    [STEP 3: PAPER ABSTRACT]
+    <div class="video-section">
+      <h3>Demo Video</h3>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ysFav0b472w?si=Rxxp3R6_tkBXAEmP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <p>TODO: This is the short explanation paragraph of the video. Add your paragraph here if required</p>
+    </div>
+
+    <div class="abstract" id="abstract">
+      <h2>Abstract</h2>
+      <p>TODO: Add Abstract</p>
+    </div>
+
+    [STEP 4: INTRODUCTION]
+    <div class="content-section" id="introduction">
+      <h2>Introduction</h2>
+      <p>TODO: Add Introduction</p>
+    </div>
+
+    [STEP 5: METHODOLOGY]
+    <div class="content-section" id="methodology">
+      <h2>Methodology</h2>
+      <p>TODO: Add Methodology</p>
+      <ul>
+        <li>TODO</li>
+        <li>TODO</li>
+      </ul>
+    </div>
+
+    [STEP 6: RESULTS]
+    <div class="content-section" id="results">
+      <h2>Results</h2>
+      <p>TODO: Add Results</p>
+      <ul>
+        <li>TODO</li>
+        <li>TODO</li>
+      </ul>
+    </div>
+
+    [3 IMAGES CAROUSEL]
+    <h3>Image Gallery</h3>
+    <div class="carousel-container" id="imageCarousel">
+      <div class="carousel-track">
+        <div class="carousel-slide"><img src="Assets/Photo1.jpg" alt="Slide 1" /></div>
+        <div class="carousel-slide"><img src="Assets/Photo2.jpg" alt="Slide 2" /></div>
+        <div class="carousel-slide"><img src="Assets/Photo3.jpg" alt="Slide 3" /></div>
+        <div class="carousel-slide"><img src="Assets/Photo4.jpg" alt="Slide 4" /></div>
+        <div class="carousel-slide"><img src="Assets/Photo5.jpg" alt="Slide 5" /></div>
+        <div class="carousel-slide"><img src="Assets/Photo6.jpg" alt="Slide 6" /></div>
+        <div class="carousel-slide"><img src="Assets/Photo7.jpg" alt="Slide 7" /></div>
+        <div class="carousel-slide"><img src="Assets/Photo8.jpg" alt="Slide 8" /></div>
+      </div>
+      <button class="carousel-button prev">←</button>
+      <button class="carousel-button next">→</button>
+      <div class="carousel-indicators"></div>
+    </div>
+
+    [3 VIDEOS CAROUSEL]
+    <h3>Video Gallery</h3>
+    <div class="carousel-container" id="videoCarousel">
+      <div class="carousel-track">
+        <div class="carousel-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/Bhg3uOx9ZPw?si=4Ie__ntcTSvRRi4y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="carousel-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/xjRALKy6Ajw?si=EMrMe_v9fXOjhi_J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="carousel-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/aaTUS5Aa8F0?si=NUvuwq8-SzC5RuqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="carousel-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/JficcrhnO78?si=8SryP_KFQ0orNyMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="carousel-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/kEdr0ARq48A?si=ADLxnzCBkTDQm28o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        <div class="carousel-slide"><iframe width="560" height="315" src="https://www.youtube.com/embed/v_ulHMfDUco?si=0fJGN4AmWj_zP-Ik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      </div>
+      <button class="carousel-button prev">←</button>
+      <button class="carousel-button next">→</button>
+      <div class="carousel-indicators"></div>
+    </div>
+
+    [SINGLE YOUTUBE VIDEO]
+    <div class="video-section">
+      <h3>Demo Video</h3>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ysFav0b472w?si=Rxxp3R6_tkBXAEmP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    [YOUTUBE VIDEO LIST / PLAYLIST]
+    <div class="video-section">
+      <h3>Demo Videos List</h3>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=Alenj7M9_gg7Xv49&amp;list=PL95lT3XlM14SgZHmmKn1mGSAAQc8ycq8v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    [STEP 7: CONCLUSION]
+    <div class="content-section" id="conclusion">
+      <h2>Conclusion</h2>
+      <p>TODO: Add Conclusion</p>
+    </div>
+
+    [STEP 8: BIBTEX]
+    <div class="bibtex-section" id="bibtex">
+      <h2>BibTeX</h2>
+      <button class="bibtex-copy-button" onclick="copyBibTeX()">📋 Copy to Clipboard</button>
+      <pre>
+        <code class="language-bibtex">
+          @inproceedings{TODO: YourPaperCitation,
+            title={TODO: Paper Title},
+            author={[TODO: Author Names]},
+            booktitle={[TODO: Conference Name]},
+            year={TODO: 2024},
+            pages={[pages]}
+          }
+        </code>
+      </pre>
+    </div>
+
+    [STEP 9: ACKNOWLEDGEMENT]
+    <div class="content-section" id="acknowledgement">
+      <h2>Acknowledgement</h2>
+      <p>TODO: Add Acknowledgement if applicable or remove this</p>
+    </div>
+
+    [STEP 10: FOOTER (STATIC FALLBACK)]
+    <div class="footer">
+      <p>© 2024 [TODO: Add Name or University]. All rights reserved.</p>
+      <p>
+        Website template free to borrow from
+        <a href="https://github.com/indramal/iNdra-GitHub-Page-Template-For-Resarch" target="_blank">here</a>.
+      </p>
+    </div>
+    STATIC HTML EDIT METHOD END -->
+    </div> <!-- End of .container -->
+
+    <!-- Full-Width Dynamic Footer Container -->
+    <div class="footer" id="footer">
+      <div class="skeleton skeleton-text-short"></div>
+    </div>
+
+    <!-- Scroll up button -->
+    <button class="scrollUpBtn" id="scrollUpBtn" onclick="scrollToTop()">
+      ⬆
+    </button>
+
+    <!-- 
+      TEMPLATE CONFIGURATION MODE:
+      Set USE_YAML_DATA to true to use automatic YAML data loading (data.yaml).
+      Set USE_YAML_DATA to false if you are editing HTML manually in index.html below.
+    -->
+    <script>
+      const USE_YAML_DATA = true;
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

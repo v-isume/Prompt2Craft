@@ -1,0 +1,99 @@
+{
+"BODY": {
+    "AVAILABLE_OBJ": "box_N",
+    "ORIENTATION": [150, 70, 100],
+    "modifications": [{
+        "name": "HOLE_1",
+        "type": "HOLE",
+        "align_x": "FRONT",
+        "align_y": "RIGHT_LEFT_FULL",
+        "align_z": "LOW"},
+        {"name": "HOLE_2",
+        "type": "HOLE",
+        "align_x": "BACK",
+        "align_y": "RIGHT_LEFT_FULL",
+        "align_z": "HOLE_1"}],
+    "exec_function": {
+        "value": false}
+},
+"AXLE_FRONT": {
+    "AVAILABLE_OBJ": "cyl_G",
+    "ORIENTATION": "LEFT-RIGHT",
+    "connections": [{
+        "to_part": "BODY",
+        "contact_type": "INSERTED",
+        "to_modification": "HOLE_1",
+        "type": "NOT_FIXED"},
+        {"to_part": "WHEEL_1",
+        "contact_type": "SURFACE",
+        "to_face": "LEFT",
+        "align_x": "CENTER",
+        "align_y": "CONTACT",
+        "align_z": "CENTER",
+        "type": "FIXED"},
+        {"to_part": "WHEEL_2",
+        "contact_type": "SURFACE",
+        "to_face": "RIGHT",
+        "align_x": "CENTER",
+        "align_y": "CONTACT",
+        "align_z": "CENTER",
+        "type": "FIXED"}],
+    "exec_function": {
+        "value": true}
+},
+"WHEEL_1": {
+    "AVAILABLE_OBJ": "cyl_B",
+    "ORIENTATION": "LEFT-RIGHT",
+    "exec_function": {
+        "value": true}
+},
+"AXLE_BACK": {
+    "AVAILABLE_OBJ": "cyl_G",
+    "ORIENTATION": "LEFT-RIGHT",
+    "connections": [{
+        "to_part": "BODY",
+        "contact_type": "INSERTED",
+        "to_modification": "HOLE_2",
+        "type": "NOT_FIXED"},
+        {"to_part": "WHEEL_3",
+        "contact_type": "SURFACE",
+        "to_face": "LEFT",
+        "align_x": "CENTER",
+        "align_y": "CONTACT",
+        "align_z": "CENTER",
+        "type": "FIXED"},
+        {"to_part": "WHEEL_4",
+        "contact_type": "SURFACE",
+        "to_face": "RIGHT",
+        "align_x": "CENTER",
+        "align_y": "CONTACT",
+        "align_z": "CENTER",
+        "type": "FIXED"}],
+    "exec_function": {
+        "value": true}
+},
+"WHEEL_N": {
+    "AVAILABLE_OBJ": "cyl_B",
+    "ORIENTATION": "LEFT-RIGHT",
+    "exec_function": {
+        "value": true}
+},
+"WHEEL_2": {
+    "AVAILABLE_OBJ": "cyl_B",
+    "ORIENTATION": "LEFT-RIGHT",
+    "exec_function": {
+        "value": true}
+},
+"WHEEL_3": {
+    "AVAILABLE_OBJ": "cyl_B",
+    "ORIENTATION": "LEFT-RIGHT",
+    "exec_function": {
+        "value": true}
+},
+"WHEEL_4": {
+    "AVAILABLE_OBJ": "cyl_B",
+    "ORIENTATION": "LEFT-RIGHT",
+    "exec_function": {
+        "value": true}
+}
+}

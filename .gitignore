@@ -1,0 +1,77 @@
+# --- Media files ---
+# Images
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.svg
+*.ico
+*.heic
+*.exr
+*.hdr
+
+# Video
+*.mp4
+*.MP4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.m4v
+
+# Audio
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.aac
+*.m4a
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Models / weights ---
+models/
+
+# --- Logs ---
+*.log
+
+# --- Dataset (keep only scooter_pexels.zip) ---
+dataset/*
+!dataset/scooter_pexels.zip
+
+# --- Generated output ---
+output/
+
+# --- Local-only scripts (fine-tuning, video recording, diagnostics) ---
+scripts/build_finetune_dataset.py
+scripts/eval_restart_baseline.py
+scripts/finetune_memory_probe.py
+scripts/finetune_prompt.py
+scripts/finetune_train.py
+scripts/mesh_render.py
+scripts/physics_poses.py
+scripts/physics_video.py
+scripts/probe_physics_vram.py
+scripts/record_physics_runs.py
+scripts/render_pose_videos.py
+scripts/run_default_physics.py
+requirements-finetune.txt
+requirements-physics.txt
+config/eval_split.json
+config/finetune_rules.txt
+HANDOFF.md
+
+# --- Prompt batches ---
+prompts/
+utils/utils_old.py

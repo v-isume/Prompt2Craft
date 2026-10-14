@@ -83,7 +83,14 @@ class BatchMeshGenerator:
                 continue
             print("------------------------------------------------------")
             print(custom_id)
-            self._process_record(custom_id, all_answers["response"][i])
+            try:
+                self._process_record(custom_id, all_answers["response"][i])
+            except Exception as exc:
+                # One malformed plan (e.g. an unknown "to_face" value) must fail
+                # that craft only, not abort the rest of the batch.
+                print(f"Unhandled error for {custom_id}: {exc!r}")
+                self.state.add_error(custom_id, f"Invalid plan: {type(exc).__name__}: {exc}",
+                                     buckets=[self.state.list_error_missing_key])
         self._rescale_outputs()
         self._finalize()
 

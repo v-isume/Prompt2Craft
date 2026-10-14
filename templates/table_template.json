@@ -1,0 +1,61 @@
+{
+"TABLETOP": {
+    "AVAILABLE_OBJ": "box_E",
+    "ORIENTATION": [70, 70, 10],
+    "connections": [{
+        "to_part": "LEG_1",
+        "contact_type": "SURFACE",
+        "to_face": "BOTTOM",
+        "align_x": "FRONT",
+        "align_y": "LEFT",
+        "align_z": "CONTACT",
+        "type": "FIXED"},
+        {"to_part": "LEG_2",
+        "contact_type": "SURFACE",
+        "to_face": "BOTTOM",
+        "align_x": "FRONT",
+        "align_y": "RIGHT",
+        "align_z": "CONTACT",
+        "type": "FIXED"},
+        {"to_part": "LEG_3",
+        "contact_type": "SURFACE",
+        "to_face": "BOTTOM",
+        "align_x": "BACK",
+        "align_y": "LEFT",
+        "align_z": "CONTACT",
+        "type": "FIXED"},
+        {"to_part": "LEG_4",
+        "contact_type": "SURFACE",
+        "to_face": "BOTTOM",
+        "align_x": "BACK",
+        "align_y": "RIGHT",
+        "align_z": "CONTACT",
+        "type": "FIXED"}],
+    "exec_function": {
+        "value": true}
+},
+"LEG_1": {
+    "AVAILABLE_OBJ": "box_C",
+    "ORIENTATION": [10, 10, 50],
+    "exec_function": {
+        "value": false}
+},
+"LEG_2": {
+    "AVAILABLE_OBJ": "box_C",
+    "ORIENTATION": [10, 10, 50],
+    "exec_function": {
+        "value": false}
+},
+"LEG_3": {
+    "AVAILABLE_OBJ": "box_C",
+    "ORIENTATION": [10, 10, 50],
+    "exec_function": {
+        "value": false}
+},
+"LEG_4": {
+    "AVAILABLE_OBJ": "box_C",
+    "ORIENTATION": [10, 10, 50],
+    "exec_function": {
+        "value": false}
+}
+}

@@ -1,0 +1,76 @@
+{
+"SIDEPANEL_L": {
+    "AVAILABLE_OBJ": "box_L",
+    "ORIENTATION": [45, 10, 75],
+    "connections": [{
+        "to_part": "SHELF_BOTTOM",
+        "contact_type": "SURFACE",
+        "to_face": "RIGHT",
+        "align_x": "CENTER",
+        "align_y": "CONTACT",
+        "align_z": "LOW",
+        "type": "FIXED"},
+        {"to_part": "SHELF_MIDDLE",
+        "contact_type": "SURFACE",
+        "to_face": "RIGHT",
+        "align_x": "CENTER",
+        "align_y": "CONTACT",
+        "align_z": "CENTER",
+        "type": "FIXED"},
+        {"to_part": "SHELF_TOP",
+        "contact_type": "SURFACE",
+        "to_face": "RIGHT",
+        "align_x": "CENTER",
+        "align_y": "CONTACT",
+        "align_z": "HIGH",
+        "type": "FIXED"}],
+    "exec_function": {
+        "value": false}
+},
+"SIDEPANEL_R": {
+    "AVAILABLE_OBJ": "box_L",
+    "ORIENTATION": [45, 10, 75],
+    "connections": [{
+        "to_part": "SHELF_BOTTOM",
+        "contact_type": "SURFACE",
+        "to_face": "LEFT",
+        "align_x": "CENTER",
+        "align_y": "CONTACT",
+        "align_z": "LOW",
+        "type": "FIXED"},
+        {"to_part": "SHELF_MIDDLE",
+        "contact_type": "SURFACE",
+        "to_face": "LEFT",
+        "align_x": "CENTER",
+        "align_y": "CONTACT",
+        "align_z": "CENTER",
+        "type": "FIXED"},
+        {"to_part": "SHELF_TOP",
+        "contact_type": "SURFACE",
+        "to_face": "LEFT",
+        "align_x": "CENTER",
+        "align_y": "CONTACT",
+        "align_z": "HIGH",
+        "type": "FIXED"}],
+    "exec_function": {
+        "value": false}
+},
+"SHELF_BOTTOM": {
+    "AVAILABLE_OBJ": "box_F",
+    "ORIENTATION": [40, 40, 10],
+    "exec_function": {
+        "value": true}
+},
+"SHELF_MIDDLE": {
+    "AVAILABLE_OBJ": "box_F",
+    "ORIENTATION": [40, 40, 10],
+    "exec_function": {
+        "value": true}
+},
+"SHELF_TOP": {
+    "AVAILABLE_OBJ": "box_F",
+    "ORIENTATION": [40, 40, 10],
+    "exec_function": {
+        "value": true}
+}
+}

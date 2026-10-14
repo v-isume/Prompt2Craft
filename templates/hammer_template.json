@@ -1,0 +1,25 @@
+{
+"HEAD": {
+    "AVAILABLE_OBJ": "box_M",
+    "ORIENTATION": [100, 75, 70],
+    "modifications": [{
+        "name": "HOLE_1",
+        "type": "HOLE",
+        "align_x": "CENTER",
+        "align_y": "CENTER",
+        "align_z": "BOTTOM_TOP_HALF"}],
+    "exec_function": {
+        "value": true}
+},
+"HANDLE": {
+    "AVAILABLE_OBJ": "cyl_M",
+    "ORIENTATION": "TOP-BOTTOM",
+    "connections": [{
+        "to_part": "HEAD",
+        "contact_type": "INSERTED",
+        "to_modification": "HOLE_1",
+        "type": "FIXED"}],
+    "exec_function": {
+        "value": false}
+}
+}

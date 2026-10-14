@@ -91,7 +91,7 @@ sections:
         html: |
               <img src="Assets/Fig0.png"
               alt="Abstract figure"
-              style="max-width:100%; display:block; margin:16px auto; border-radius:10px;" />
+              style="width:100%; max-width:500px; display:block; margin:16px auto; border-radius:10px;" />
       # - type: "youtube_video"
       #   title: "Demo Video"
       #   url: "https://www.youtube.com/embed/n3spw0j8oZs?si=H9psbfyMQi6QWmlo"

@@ -1,5 +1,9 @@
 # Prompt2Craft
-Official repository for the paper "Prompt2Craft: Generating Functional Craft Assemblies With LLMs"
+Code for the paper **Prompt2Craft: Generating Functional Craft Assemblies With LLMs**, published in IEEE Robotics and Automation Letters (RA-L) and presented at IROS 2026.
+
+Vitor Hideyo Isume, Takuya Kiyokawa, Natsuki Yamanobe, Yukiyasu Domae, Weiwei Wan, Kensuke Harada
+
+[Project page](https://v-isume.github.io/Prompt2Craft/) | [Paper](https://ieeexplore.ieee.org/document/11513915) | [arXiv](https://arxiv.org/abs/2512.04568)
 
 ## Environment Setup
 The main packages are in *requirements.txt*. It was tested using Python 3.12.
@@ -90,3 +94,14 @@ python scripts/check_physics.py --in-dir /name/of/meshes/folder/ --out-dir /name
 
 You can add the --headless flag if you don't need to visualize the simulation.
 
+## Citation
+
+```bibtex
+@article{isume2026prompt2craft,
+title={Prompt2Craft: Generating Functional Craft Assemblies with LLMs},
+author={Isume, Vitor Hideyo and Kiyokawa, Takuya and Yamanobe, Natsuki and Domae, Yukiyasu and Wan, Weiwei and Harada, Kensuke},
+journal={IEEE Robotics and Automation Letters},
+year={2026},
+publisher={IEEE}
+}
+```
